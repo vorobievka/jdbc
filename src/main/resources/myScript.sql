@@ -1,0 +1,1 @@
+select product_name from public.orders o join public.customers c ON c.id = o.customer_id where c.name ilike :names
